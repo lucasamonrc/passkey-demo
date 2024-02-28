@@ -7,7 +7,20 @@
     </head>
     <body>
         <p>Hello, world</p>
-        <button onclick="test()">Test</button>
+
+        <form id="registration">
+            <input type="email" name="email" id="email" placeholder="Email" />
+            <input
+                type="text"
+                name="displayName"
+                id="displayName"
+                placeholder="Name"
+            />
+            <button type="submit">Register</button>
+        </form>
+
+        <button id="authentication">Login</button>
+
         <script src="./client.js"></script>
     </body>
 </html>
